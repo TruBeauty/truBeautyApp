@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="srilanka.sliit.apps.trubeauty">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="srilanka.sliit.apps.trubeauty.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="srilanka.sliit.apps.trubeauty.Welcome_Screen_Activity" />
+        <activity android:name="srilanka.sliit.apps.trubeauty.Login_or_Signup" />
+        <activity android:name="srilanka.sliit.apps.trubeauty.MainActivity" />
+        <activity android:name="srilanka.sliit.apps.trubeauty.UserSignUp" />
+        <activity android:name="srilanka.sliit.apps.trubeauty.Register_Salon" />
+        <activity android:name="srilanka.sliit.apps.trubeauty.get_User_Name"></activity>
+    </application>
+
+</manifest>

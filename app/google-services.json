@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "611665191918",
+    "firebase_url": "https://salon-app-trubeauty.firebaseio.com",
+    "project_id": "salon-app-trubeauty",
+    "storage_bucket": "salon-app-trubeauty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611665191918:android:b1d7bb3c61b8145f",
+        "android_client_info": {
+          "package_name": "srilanka.sliit.apps.trubeauty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611665191918-i829jclb7udtnrks8snlu63eqippcclp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "srilanka.sliit.apps.trubeauty",
+            "certificate_hash": "b1d3449a68abbc815c510359a45a43d4a823f8d0"
+          }
+        },
+        {
+          "client_id": "611665191918-74sj6db2lpms1t0b1tl29a92860aul5v.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "611665191918-74sj6db2lpms1t0b1tl29a92860aul5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI0ujzJ-tMdLKiJmzxyGRzhWm1x81-wvU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611665191918-74sj6db2lpms1t0b1tl29a92860aul5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
