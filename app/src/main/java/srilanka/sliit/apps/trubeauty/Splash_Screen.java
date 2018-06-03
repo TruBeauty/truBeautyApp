@@ -20,7 +20,7 @@ public class Splash_Screen extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         View decorView = getWindow().getDecorView();
-// Hide the status bar.
+// Hide the status bar.hello
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
         setContentView(R.layout.activity_splash__screen);
