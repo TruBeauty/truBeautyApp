@@ -82,4 +82,28 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog = adb.create();
         alertDialog.show();
     }
-}
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.main);
+
+            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
+
+            ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+            setupViewPager(viewPager);
+
+            TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+            tabLayout.setupWithViewPager(viewPager);//setting tab over viewpager
+        }
+
+        //Setting View Pager
+        private void setupViewPager(ViewPager viewPager) {
+            ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+            adapter.addFrag(new Register_Salon(), "services");
+            viewPager.setAdapter(adapter);
+        }
+
+
+    }
